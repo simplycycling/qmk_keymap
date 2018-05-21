@@ -2,5 +2,5 @@
 
 This gives the layouts shown here:
 
-https://configure.ergodox-ez.com/keyboard_layouts/kmjggm/edit
+https://configure.ergodox-ez.com/keyboard_layouts/kdlvjp/edit
 
