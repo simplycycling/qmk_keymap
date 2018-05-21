@@ -134,12 +134,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // right hand
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS,  KC_G,    KC_C,    KC_R,    KC_F,    KC_Z,    KC_TRNS,
-                 KC_D,    KC_S,    KC_T,    KC_N,    KC_B,    KC_MPLY,
+                 KC_D,    KC_S,    KC_T,    KC_N,    KC_B,    KC_TRNS,
        KC_TRNS,  KC_W,    KC_M,    KC_L,    KC_P,    KC_V,    KC_TRNS,
-                          KC_VOLU, KC_VOLD, KC_MUTE, KC_TRNS, KC_TRNS,
+                          KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS, KC_TRNS,
        KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_WBAK
+       KC_TRNS, KC_TRNS, KC_TRNS
 ),
 };
 
