@@ -36,16 +36,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // If it accepts an argument (i.e, is a function), it doesn't need KC_.
 // Otherwise, it needs KC_*
   [0] = KEYMAP(KC_EQUAL,KC_1,KC_2,KC_3,KC_4,KC_5,KC_LEFT,KC_DELETE,KC_Q,KC_W,KC_E,KC_R,KC_T,TG(1),KC_MINUS,KC_A,KC_S,KC_D,KC_F,KC_G,KC_LSHIFT,CTL_T(KC_Z),KC_X,KC_C,KC_V,KC_B,LALT(KC_INSERT),LT(2,KC_GRAVE),KC_QUOTE,LSFT(KC_LCTL),KC_LALT,KC_LGUI,KC_LEFT,KC_RIGHT,KC_HOME,KC_SPACE,KC_BSPACE,KC_END,KC_RIGHT,KC_6,KC_7,KC_8,KC_9,KC_0,TG(2),LSFT(KC_PSCREEN),KC_Y,KC_U,KC_I,KC_O,KC_P,KC_BSLASH,KC_H,KC_J,KC_K,KC_L,KC_SCOLON,KC_QUOTE,KC_ESCAPE,KC_N,KC_M,KC_COMMA,KC_DOT,RCTL_T(KC_SLASH),KC_RSHIFT,KC_UP,KC_DOWN,KC_LBRACKET,KC_RBRACKET,MO(2),MEH_T(KC_NO),KC_LCTL,KC_PGUP,KC_PGDOWN,KC_TAB,KC_ENTER),
-/* Keymap 1: Beakl10
+/* Keymap 1: Beakl MU Redux
  *
  * ,--------------------------------------------------.           ,--------------------------------------------------.
  * |        |      |      |      |      |      |      |           |      |      |      |      |      |      |        |
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
- * |        |  J   |  H   |  O   |  U   |  K   |      |           |      |  G   |  C   |  R   |  F   |  Z   |        |
+ * |        |  Q   |  Y   |  O   |  U   |  Z   |      |           |      |  G   |  D   |  N   |  M   |  X   |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
- * |        |  Q   |  I   |  E   |  A   |  Y   |------|           |------|  D   |  S   |  T   |  N   |  B   |        |
+ * |        |  H   |  I   |  E   |  A   |  .   |------|           |------|  C   |  T   |  R   |  S   |  W   |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
- * |        |Cntl /|  ,   |  .   |  ;   |  X   |      |           |      |  W   |  M   |  L   |  P   |  V   |        |
+ * |        |Cntl J|  /   |  ;   |  K   |  ,   |      |           |      |  B   |  P   |  L   |  F   |  V   |        |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |      |      |      |      |      |                                       |      |      |      |      |      |
  *   `----------------------------------'                                       `----------------------------------'
@@ -57,9 +57,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 |      |      |      |       |      |      |      |
  *                                 `--------------------'       `--------------------'
  */
-// Beakl10 layer
-  [1] = KEYMAP(KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_Q,KC_H,KC_O,KC_U,KC_X,KC_TRANSPARENT,KC_TRANSPARENT,KC_Y,KC_I,KC_E,KC_A,KC_J,KC_TRANSPARENT,CTL_T(KC_SLASH),KC_COMMA,KC_DOT,KC_SCOLON,KC_Z,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_G,KC_D,KC_N,KC_M,KC_V,KC_TRANSPARENT,KC_C,KC_S,KC_R,KC_T,KC_W,KC_TRANSPARENT,KC_TRANSPARENT,KC_B,KC_P,KC_L,KC_F,KC_K,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT),
-
+// Beakl MU Redux layer
+  [1] = KEYMAP(KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_Q,KC_Y,KC_O,KC_U,KC_Z,KC_TRANSPARENT,KC_TRANSPARENT,KC_H,KC_I,KC_E,KC_A,KC_DOT,KC_TRANSPARENT,CTL_T(KC_J),KC_SLASH,KC_SCOLON,KC_K,KC_COMMA,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_G,KC_D,KC_N,KC_M,KC_X,KC_TRANSPARENT,KC_C,KC_T,KC_R,KC_S,KC_W,KC_TRANSPARENT,KC_TRANSPARENT,KC_B,KC_P,KC_L,KC_F,KC_V,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT),
 
 /* Keymap 2: Symbol Layer
  *
